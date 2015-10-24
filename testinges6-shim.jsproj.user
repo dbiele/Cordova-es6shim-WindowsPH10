@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Windows Phone (Universal)'">
+    <DebuggerFlavor>WindowsMobileEmulator</DebuggerFlavor>
+    <WindowsMobileEmulatorID>8BDF218D-FDBB-4A97-90F9-3AA33B559A92;Mobile Emulator 10.0.10240.0 WVGA 4 inch 512MB</WindowsMobileEmulatorID>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ReferenceCachePath>C:\Users\DBiele\AppData\Local\Temp\testinges6-shim_refcache</ReferenceCachePath>
+    <ShowAllFiles>true</ShowAllFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android'">
+    <DebuggerFlavor>AndroidEmulator</DebuggerFlavor>
+    <AndroidEmulatorID>AndroidDevice;Device</AndroidEmulatorID>
+  </PropertyGroup>
+</Project>
