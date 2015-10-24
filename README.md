@@ -1,5 +1,5 @@
 # Cordova-es6shim-WindowsPhone10
-Sample code to test if errors appear when running on Windows Phone 10 devices.
+Sample code to test if errors appear when using Cordova + ES6-shim on Windows Phone 10 devices.
 
 ## Problem ##
 When trying to run a Windows Phone 10 app using es6-shim.js, I get errors that prevent the app from running.   
@@ -18,4 +18,7 @@ or
     0x800a138d - JavaScript runtime error: String.prototype.startsWith: 'this' is not a String object
     Exception was thrown at line 1093, column 9 in ms-appx-web://testing/www/scripts/es6-shim/es6-shim.js
 
-Note: This project was created using Visual Studio 2015 community.  However, any IDE or command line (cordova build) tool can build a project. 
+
+## Code ##
+
+This project was created using Visual Studio 2015 community.  However, any IDE or command line (cordova build) tool can build this project. 
